@@ -13,7 +13,7 @@ def navigate_to(page_name):
 
 if st.session_state.page == 'home':
     st.title("A Modern Approach to Pendulum")
-    st.subheader("What if...Galileo would have born in 21st century?")
+    st.subheader("What if...Galileo would have been born in 21st century?")
     st.subheader("by Giuseppe Sinatra")
     if st.button("Make a prediction"):
         navigate_to('page1')
@@ -79,7 +79,7 @@ if st.button('GitHub Repository', key='Git'):
 
 if st.button('My Linkedin Profile', key='Linkedin'):
     st.image(linkedin_logo, width=200)
-    st.markdown('[LinkedIn](www.linkedin.com/in/giuseppe-sinatra-ba5835ab)')
+    st.markdown('[LinkedIn](http://www.linkedin.com/in/giuseppe-sinatra-phd-ba5835ab)')
 
 
 
